@@ -1,0 +1,12 @@
+{
+  "name": "electron-chatUI",
+  "version": "1.0.0",
+  "description": "ChatUI electron version",
+  "main": "main.js",
+  "author": "Manan Mehta",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "electron ."
+  }
+}
