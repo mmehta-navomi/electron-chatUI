@@ -1,4 +1,5 @@
 # electron-chatUI
+This is fist draft of Electron Chat UI for Project 'Rohit'
 
 This chat app build of the Electron Quick Start demo application [Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start).
 
