@@ -21,3 +21,6 @@ yarn server
 ```
 
 You can create more window using 'Cmd + n' or through Window -> New Window  using menu item 'Window'
+
+#Debug
+To turn on window debug uncomment line ```mainWindow.webContents.openDevTools()``` in ```main.js```
