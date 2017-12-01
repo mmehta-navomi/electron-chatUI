@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WebSocket Page</title>
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" onload="window.$ = window.jQuery = module.exports;"></script>
+        <!-- <script src="/chance.min.js"></script> -->
+    </head>
+    <body>
+        <!-- <h1>Hello, there!!!</h1> -->
+        <div id="chat-frame">
+            <div id='handler'></div>
+            <div id="chat-window">
+                <div id="output"></div>
+                <div id='broadcast'></div>
+            </div>
+            <!-- <input id='handle' type="text" placeholder="Handle"/> -->
+            <input id='message' type="text" placeholder="Enter Message Here ..."/>
+            <button id="send">Send</button>
+        </div>
+        <!-- <script type="text/javascript" src='/chat.js'></script> -->
+        <script>
+            require('./chat.js')
+            require('./chance.min.js')
+        </script>
+    </body>
+</html>

@@ -6,7 +6,14 @@
   "author": "Manan Mehta",
   "license": "MIT",
   "private": false,
+  "repository": "https://github.com/mmehta-navomi/electron-chatUI",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "server": "node app.js"
+  },
+  "dependencies": {
+    "electron": "^1.7.9",
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
   }
 }
