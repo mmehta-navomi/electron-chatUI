@@ -20,4 +20,4 @@ yarn start
 yarn server
 ```
 
-There are two part of this application Electron (client) and Node server (server). You can open as many client as you like to chat. You can run each client in it's own terminal tab.
+You can create more window using 'Cmd + n' or through Window -> New Window  using menu item 'Window'
